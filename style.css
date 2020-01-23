@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
 *{
 	margin: 0;
 	padding: 0;
@@ -9,17 +11,25 @@
 	background: #FFFBFA;
 	margin: 0 auto;
 	width: 100%;
-	font-family: Times New Roman;
+	font-family: 'Dancing Script';
+	 
 }
 	header h1{
-	background: #F40D82;
+	background: #FFFBFA;
 		width: 100%;
 		height: 40px;
-		color: white;
-		text-shadow: 5px 5px 10px darkblue;
-		padding: 50px 0;
-		font-size: 50px;
+		color: #F40D82;
+		margin-top: 20px;
+		font-size: 60px;
 		text-align: center;
+	}
+
+	header h2{
+		margin-top: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bolder;
+		color: black;
 	}
 
 	.navigator{
@@ -35,21 +45,21 @@
 	}
 	.navigator ul li{
 		
-	background: #F40D82;
+	background: #FFFBFA;
 		float: left;
 		width: 240px;
-	 	padding: 5px 57.9px;
+		color: black;
+	 	padding: 10px 57.9px;
 	 	text-align: center;
 		font-size: 35px;
 		font-weight: bold;
-		text-shadow: 1px 1px 15px black;
 		transition: background 2s;
 		cursor: pointer;
 		
 		transition: background 2s, height 5s ease-out;
 	}
 	.navigator ul li:hover{
-		color: violet;
+		color: #F40D82;
 	}
 
 	main{}
@@ -80,10 +90,35 @@
 		text-shadow: 1px 1px 10px black;
 	}
 
-	main h2{
-		text-align: center;
+	main h1{
+	background: #FFFBFA;
+		width: 100%;
+		height: 40px;
+		color: #F40D82;
+		margin-top: 20px;
 		font-size: 60px;
+		text-align: center;
+	}
+
+	main h2{
+		margin-top: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bolder;
 		color: black;
+	}
+
+	main img{
+		width: 30%;
+		padding: 10px 20px 10px 20px;
+	}
+
+	#com_soon{
+		margin-top: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bolder;
+		color: #F40D82;
 	}
 
 	article{
@@ -134,15 +169,13 @@
 	}
 
 	footer{
+		background: #FFFBFA;
 		margin-top: 30px;
 		height: 40px;
-	background: -webkit-linear-gradient(top left, #F40D82, violet);
-	background: -o-linear-gradient(top left, #F40D82, violet);
-	background: linear-gradient(to bottom right, #F40D82, violet);
-	font-size: 25px;
-	padding: 20px;
-	color: white;
-	font-weight: bold;
+		font-size: 25px;
+		padding: 20px;
+		color: black;
+		font-weight: bold;
 	}
 	.left_footer{
 		margin-left: 30px;
@@ -164,9 +197,10 @@
 		float: left;
 		font-size: 25px;
 		font-weight: bold;
+		color: black;
 		margin: 0px 30px;
 		cursor: pointer;
 	}
 	.right_footer ul li:hover{
-		color: darkviolet;
+		color: #F40D82;
 	}
