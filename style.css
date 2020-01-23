@@ -124,6 +124,28 @@
 		border-radius: 40px;
 	}
 
+	form{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.main_group label{
+		padding: 10px 0 30px 0;
+		text-align: center;
+		text-align-last: center;
+		font-weight: bolder;
+		font-size: 30px;
+		color: #F40D82;
+	}
+
+	.main_group input{
+		font-size: 25px;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow: inset 0px 0px 5px #F40D82;
+	}
+
+
 	#com_soon{
 		margin-top: 30px;
 		text-align: center;
@@ -168,6 +190,7 @@
 		width: 20%;
 		padding: 40px 30px 20px 100px;
 		float: left;
+		border: none;
 	}	
 
 	.right_side{
